@@ -1,0 +1,33 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: lightseagreen;
+}
+
+h1, h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.screenshots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between items */
+    padding: 10px;
+}
+
+.image {
+    filter: drop-shadow(2px 2px 2px black);
+}
+
+#video {
+    text-align: center;
+    padding: 10px;
+}
+
+.videos {
+    padding: 5px;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+/* Have padding around the images and videos, use justify content and related */
