@@ -19,7 +19,10 @@ h1 {
     font-size: 40px;
 }
 
-
+.image {
+    height: 216px;
+    width: 384px;
+}
 
 table, th, td {
     margin: auto;

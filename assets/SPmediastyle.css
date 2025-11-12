@@ -13,11 +13,14 @@ h1, h2 {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px; /* Space between items */
-    padding: 10px;
+    padding: 5px 0px;
 }
 
-.image {
+.image, .videos {
     filter: drop-shadow(2px 2px 2px black);
+    height: 270px;
+    width: 480px;
+    padding: 5px;
 }
 
 #video {
@@ -25,9 +28,5 @@ h1, h2 {
     padding: 10px;
 }
 
-.videos {
-    padding: 5px;
-    filter: drop-shadow(1px 1px 1px black);
-}
 
 /* Have padding around the images and videos, use justify content and related */

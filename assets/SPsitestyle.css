@@ -26,17 +26,23 @@ it work without padding */
     background-size: 100%;
     background-color: rgb(70, 212, 231);
     padding: 270px 0px;
+    text-transform: uppercase;
 }
 /* Adds a shadow around all the images on the page with class "image" */
 .image {
     filter: drop-shadow(2px 2px 2px black);
     padding: 10px;
+    height: 270px;
+    width: 480px;
 }
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: darkcyan;
-    color: white
+    color: white;
+    font-size: 20px;
+    line-height: 1.5; /* Increases space between lines, improves readability */
+    word-spacing: 0.1em; /* Increases space between words slightly */
 }
 
 h2, h3 {
@@ -47,12 +53,12 @@ h2, h3 {
     border: 1px solid white;
 }
 
-footer, figure, header, h2, h3, #summary, #faq {
+footer, figure, header, h2, h3, h4, #summary, #faq {
     text-align: center;
 }
 
 .question {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .question, nav {
