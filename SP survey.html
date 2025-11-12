@@ -2,6 +2,8 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=0 width=device-width">
+        <link href="./assets/SPsurvey.css" rel="stylesheet">
         <title>Sea Power Mission Creator</title>
     </head>
     <body>
@@ -11,13 +13,13 @@
             <hr>
             <p>Fill out this form and submit it and I might make a scenario
                 incorporating these suggestions using the in-game mission editor!</p>
-            <section class="Time period">
+            <section id="time-period">
                 <label for="time">What era the game covers (late 1950's- mid 1980's) 
                     interests you the most?</label>
                 <input type="text" id="time" name="time period">
             </section>
             <br>
-            <section class="combat">
+            <section id="combat-type">
                 <span>What type of combat do you like? (Select all that apply)</span>
                 <br>
                 <input type="checkbox" id="naval combat" name="combat" 
@@ -33,7 +35,7 @@
                 <label for="ground combat">Ground Combat</label>
             </section>
             <br>
-            <section class="selector">
+            <section id="selector">
                 <span>What type of battles would you prefer playing? 
                     (Select all that apply)</span>
                 <br>
@@ -64,9 +66,13 @@
                 <input type="checkbox" id="air to ground" name="type"
                 value="air to ground">
                 <label for="air to ground">Air to Ground</label>
+                <br>
+                <input type="checkbox" id="ground to ground" name="type" 
+                value="ground to ground">
+                <label for="ground to ground">Ground to Ground</label>
             </section>
             <br>
-            <section class="affiliation">
+            <section id="affiliation">
                 <span>Which of the major powers do you prefer playing as?</span>
                 <br>
                 <input type="radio" id="Warsaw Pact" name="affiliation" 
@@ -78,7 +84,7 @@
                 <label for="other">Other (See next question)</label>
             </section>
             <br>
-            <section class="other matchup">
+            <section id="other-matchup">
 <!-- Maybe have surveyees choose who to oppose even if they chose nato or wp 
  maybe in a second text input and use prefilled entries there as example -->
                 <span>If you chose 'other' in the last question, which navies would 
@@ -90,11 +96,12 @@
             </section>
             <br>
             <!-- Try to add an option to have multiple selections like checkbox -->
-            <section class="other powers">
+            <section id="other-powers">
                 <label for="minor power">Any other smaller power you like playing as?</label>
                 <input list="minor powers" id="minor power" name="minor power">
                 <datalist id="minor powers">
                     <option value="Japan"></option>
+                    <option value="China"></option>
                     <option value="Norway"></option>
                     <option value="Iran"></option>
                     <option value="Iraq"></option>
@@ -104,7 +111,7 @@
                 </datalist>
             </section>
             <br>
-            <section class="ship size">
+            <section id="ship-size">
             <!-- Find a way to make each step have its own value-->
                 <label for="size">Do you prefer bigger ships, smaller ships, or a mix of both?</label>
                 <br>
@@ -113,7 +120,7 @@
                 <span>Aircraft Carriers</span>
             </section>
             <br>
-            <section class="game balance">
+            <section id="game-balance">
                 <label for="balance">Would you prefer a balanced, easy, or difficult experience?</label>
                 <br>
                 <span>Very Easy</span>
@@ -121,14 +128,14 @@
                 <span>Very Hard</span>
             </section>
             <br>
-            <section class="formation size">
+            <section id="formation-size">
                 <label for="formation">How many ships do you like
                     in a formation?</label>
                 <input type="number" id="formation" name="formation" min="1"
                 step="1">
             </section>
             <br>
-            <section class="specific units">
+            <section id="specific-units">
                 <label for="units">Any specific ship classes, aircraft types, or 
                     ground units you would want to play with in a mission? Enter 
                 as many as you would like.</label>
@@ -136,7 +143,7 @@
                 <input type="text" id="units" name="units" value="Ticonderoga">
             </section>
             <br>
-            <section class="more info">
+            <section id="more-info">
                 <label for="comments">Anything else that interests you or you 
                     would want in a mission?</label>
                 <br>
@@ -145,7 +152,7 @@
             </section>
             <br>
             <section>
-                <input type="submit" name="Submit">
+                <input type="submit" name="Submit" id="submission">
             </section>
         </form>
     </body>
