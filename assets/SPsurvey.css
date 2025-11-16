@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#submission {
+    height: 80px;
+    width: 200px;
+    font-size: 30px;
+    background-color: lightseagreen;
+}
+
+#time-period, #combat-type, #selector, #affiliation, #other-matchup, #ship-size, #formation-size, #game-balance, #specific-units, #other-powers {
+    border: 1px solid black;
+}
