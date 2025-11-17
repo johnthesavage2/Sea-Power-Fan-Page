@@ -39,7 +39,7 @@ td {
 
 table, th, td, .notes {
     border: 2px solid black;
-    padding: 4px;
+    padding: 1px;
 }
 
 a {

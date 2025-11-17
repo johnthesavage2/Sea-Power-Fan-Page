@@ -51,6 +51,7 @@ h2, h3 {
     padding: 15px;
     background-color: darkred;
     border: 1px solid white;
+    border-radius: 10px;
 }
 
 footer, figure, header, h2, h3, h4, #summary, #faq {
