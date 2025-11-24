@@ -74,6 +74,12 @@ figure, body {
     margin: 0;
 }
 
+#media, section, footer {
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 5px 10px;
+}
+
 nav a, header {
     color: darkred;
 }
