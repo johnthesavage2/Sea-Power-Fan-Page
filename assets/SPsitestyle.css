@@ -38,7 +38,7 @@ it work without padding */
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: darkcyan;
+    background-color: rgba(0, 139, 139, 75%);
     color: white;
     font-size: 20px;
     line-height: 1.5; /* Increases space between lines, improves readability */
@@ -48,7 +48,7 @@ body {
 h2, h3 {
     font-size: 30px;
     font-weight: 600;
-    padding: 15px;
+    padding: 0px 5px;
     background-color: darkred;
     border: 1px solid white;
     border-radius: 10px;
@@ -67,7 +67,7 @@ footer, figure, header, h2, h3, h4, #summary, #faq {
 }
 
 a {
-    color: darkblue;
+    color: lightblue;
 }
 
 figure, body {
@@ -75,9 +75,10 @@ figure, body {
 }
 
 #media, section, footer {
-    border: 5px solid black;
+    border: 1px solid black;
     border-radius: 10px;
-    margin: 5px 10px;
+    margin: 15px 10px;
+    background-color: black;
 }
 
 nav a, header {
