@@ -18,7 +18,7 @@ nav a {
 }
 
 header {
-    font-size: 40px;
+    font-size: 45px;
     background-image: url("./images/SP\ kara.png");
 /* Getting the size of background image to work was hard, had to increase the 
 padding to make it look good, maybe take padding off and find a way to make 
@@ -46,7 +46,7 @@ body {
 }
 
 h2, h3 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
     padding: 0px 5px;
     background-color: darkred;
@@ -74,11 +74,24 @@ figure, body {
     margin: 0;
 }
 
-#media, section, footer {
+#media, section, aside, footer {
     border: 1px solid black;
     border-radius: 10px;
     margin: 15px 10px;
     background-color: black;
+}
+
+#tips-and-tricks {
+    width: 75%;
+    display: inline-block;
+}
+
+aside {
+    width: 20%;
+    display: inline-block;
+    margin: 2px;
+    justify-content: center;
+    text-align: center;
 }
 
 nav a, header {
