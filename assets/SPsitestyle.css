@@ -23,9 +23,10 @@ header {
 /* Getting the size of background image to work was hard, had to increase the 
 padding to make it look good, maybe take padding off and find a way to make 
 it work without padding */
-    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: rgb(70, 212, 231);
-    padding: 250px 0px;
+    padding: 210px 0px;
     text-transform: uppercase;
 }
 /* Adds a shadow around all the images on the page with class "image" */
