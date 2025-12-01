@@ -34,8 +34,8 @@ it work without padding */
 .image {
     filter: drop-shadow(2px 2px 2px black);
     padding: 10px;
-    height: 270px;
-    width: 480px;
+    height: 40%;
+    width: 40%;
 }
 
 body {
@@ -81,6 +81,7 @@ figure, body {
     border-radius: 10px;
     margin: 15px 10px;
     background-color: black;
+    padding: 2px;
 }
 
 #tips-and-tricks {
