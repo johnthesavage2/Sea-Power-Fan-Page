@@ -1,7 +1,11 @@
+html {
+    font-size: 20px;
+}
+
 /* top puts it above everything else, fixed position keeps it fixed at the top
 maybe add opacity, didn't look right when I first tried it */
 nav {
-    font-size: 20px;
+    font-size: 1em;
     position: fixed;
     top: 0;
     width: 100%;
@@ -19,7 +23,7 @@ nav a {
 }
 
 header {
-    font-size: 45px;
+    font-size: 2.5em;
     background-image: url("./images/SP\ kara.png");
 /* Getting the size of background image to work was hard, had to increase the 
 padding to make it look good, maybe take padding off and find a way to make 
@@ -42,13 +46,13 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgba(0, 139, 139, 75%);
     color: white;
-    font-size: 20px;
+    font-size: 1em;
     line-height: 1.5; /* Increases space between lines, improves readability */
     word-spacing: 0.1em; /* Increases space between words slightly */
 }
 
 h2, h3 {
-    font-size: 40px;
+    font-size: 2em;
     font-weight: 600;
     padding: 0px 5px;
     background-color: darkred;
@@ -61,7 +65,7 @@ footer, figure, header, h2, h3, h4, #summary, #faq {
 }
 
 .question {
-    font-size: 25px;
+    font-size: 1.25em;
 }
 
 .question, nav {

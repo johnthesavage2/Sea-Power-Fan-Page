@@ -1,17 +1,30 @@
+html {
+    font-size: 30px;
+}
+
+header {
+    background-color: darkred;
+    padding: 5px;
+}
+
 body {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: darkcyan;
+    color: white;
+    font-size: 0.75em;
+    margin: 0;
 }
 
 #submission {
-    height: 80px;
-    width: 200px;
-    font-size: 30px;
+    height: 100px;
+    width: 220px;
+    font-size: 1.5em;
     background-color: lightseagreen;
 }
 
 #time-period, #combat-type, #selector, #affiliation, #other-matchup, #ship-size, #formation-size, #game-balance, #specific-units, #other-powers {
-    border: 1px solid black;
-    padding: 2px;
+    border: 2px solid black;
+    padding: 5px;
     border-radius: 5px;
 }
