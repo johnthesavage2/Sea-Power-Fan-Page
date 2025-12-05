@@ -83,22 +83,28 @@ figure, body {
 #media, section, aside, footer {
     border: 1px solid black;
     border-radius: 10px;
-    margin: 15px 10px;
     background-color: black;
     padding: 2px;
 }
 
+#media, section, footer {
+    margin: 15px 10px;
+}
+
 #tips-and-tricks {
     width: 75%;
-    display: inline-block;
+    margin: 15px 15px;
 }
 
 aside {
     width: 20%;
-    display: inline-block;
-    margin: 2px;
-    justify-content: center;
+    position: relative;
+    margin: 2px 0px;
     text-align: center;
+}
+
+#tips-and-tricks, aside {
+    display: inline-block;
 }
 
 .aside-image {
