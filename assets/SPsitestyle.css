@@ -9,7 +9,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgba(135, 206, 235, 80%);
+    background-color: rgba(135, 206, 235, 95%);
     z-index: 1;
 }
 
@@ -54,7 +54,7 @@ body {
 h2, h3 {
     font-size: 2em;
     font-weight: 600;
-    padding: 0px 5px;
+    padding: 0% 5%;
     background-color: darkred;
     border: 1px solid white;
     border-radius: 10px;
@@ -93,7 +93,7 @@ figure, body {
 
 #tips-and-tricks {
     width: 75%;
-    margin: 15px 15px;
+    margin: 15px 5px;
 }
 
 aside {
@@ -110,7 +110,7 @@ aside {
 .aside-image {
     width: 90%;
     height: auto;
-    margin: 5px 2px 0px;
+    margin: 15px 2px 0px;
     filter: drop-shadow(2px 2px 2px black);
 }
 
