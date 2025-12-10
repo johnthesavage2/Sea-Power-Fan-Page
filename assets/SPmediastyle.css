@@ -10,7 +10,8 @@ h1, h2 {
 }
 
 .screenshots {
-    display: flex;
+    display: inline-flexbox;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     /* gap:20px Space between items */
@@ -21,7 +22,15 @@ h1, h2 {
     filter: drop-shadow(2px 2px 2px black);
     height: 270px;
     width: 480px;
-    padding: 10px 10px;
+    padding: 10px 10px 0px;
+}
+
+.videos {
+    position: relative;
+}
+
+figcaption {
+    padding: 10px 0px;
 }
 
 #video {

@@ -37,9 +37,11 @@ it work without padding */
 /* Adds a shadow around all the images on the page with class "image" */
 .image {
     filter: drop-shadow(2px 2px 2px black);
-    padding: 10px;
-    height: 50%;
-    width: 50%;
+    padding: 10px 0px 0px;
+    height: 270px;
+    width: 480px;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 body {
@@ -54,7 +56,7 @@ body {
 h2, h3 {
     font-size: 2em;
     font-weight: 600;
-    padding: 0% 5%;
+    padding: 0px 5px;
     background-color: darkred;
     border: 1px solid white;
     border-radius: 10px;
