@@ -9,9 +9,15 @@ h1, h2 {
     padding: 10px;
 }
 
+#images {
+    /* display: inline-flexbox;
+    flex-flow: column wrap;
+    justify-content: center; */
+    margin: 0 auto;
+}
+
 .screenshots {
-    display: inline-flexbox;
-    flex-direction: column;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     /* gap:20px Space between items */
@@ -23,10 +29,6 @@ h1, h2 {
     height: 270px;
     width: 480px;
     padding: 10px 10px 0px;
-}
-
-.videos {
-    position: relative;
 }
 
 figcaption {
