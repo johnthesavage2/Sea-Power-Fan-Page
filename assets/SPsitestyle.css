@@ -20,6 +20,7 @@ nav li {
 
 nav a {
     text-decoration: none;
+    text-shadow: 1px 1px 1px white;
 }
 
 header {
@@ -101,9 +102,9 @@ figure, body {
 
 aside {
     width: 20%;
-    position: relative;
     margin: 2px 0px;
     text-align: center;
+    float: inline-end;
 }
 
 #tips-and-tricks, aside {
@@ -111,10 +112,15 @@ aside {
 }
 
 .aside-image {
-    width: 90%;
+    width: 70%;
     height: auto;
     margin: 15px 2px 0px;
     filter: drop-shadow(2px 2px 2px black);
+}
+
+figcaption {
+    font-size: 0.9rem;
+    font-style: italic;
 }
 
 nav a, header {

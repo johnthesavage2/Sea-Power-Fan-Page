@@ -26,8 +26,6 @@ h1 {
 .image {
     height: 216px;
     width: 384px;
-    max-width: 100%;
-    max-height: 100%;
 }
 
 table, th, td {
@@ -47,3 +45,5 @@ table, th, td, .notes {
 a {
     text-decoration: none;
 }
+
+/* add media query for smaller screens */

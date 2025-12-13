@@ -21,6 +21,7 @@ body {
     width: 220px;
     font-size: 1.5em;
     background-color: lightseagreen;
+    border-radius: 5px;
 }
 
 #time-period, #combat-type, #selector, #affiliation, #other-matchup, #ship-size, #formation-size, #game-balance, #specific-units, #other-powers {
