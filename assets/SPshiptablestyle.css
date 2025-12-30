@@ -53,7 +53,8 @@ table, th, td {
 
 table, th, td, .notes {
     border: 2px solid black;
-    padding: 3px;
+    padding: 5px 5px 0px;
+    border-radius: 5px;
 }
 
 a {

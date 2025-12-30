@@ -33,6 +33,7 @@ h1, h2 {
     height: 270px;
     width: 480px;
     padding: 10px 10px 0px;
+    max-width: 100%;
 }
 
 figcaption {
