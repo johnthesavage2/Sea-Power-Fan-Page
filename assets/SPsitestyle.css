@@ -95,6 +95,13 @@ figure, body {
     margin: 15px 10px;
 }
 
+#screenshots, .caption {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 5px 10px;
+}
+
 #tips-and-tricks {
     width: 75%;
     margin: 15px 5px;
