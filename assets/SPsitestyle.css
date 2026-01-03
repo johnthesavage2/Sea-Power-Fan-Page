@@ -37,7 +37,6 @@ it work without padding */
 }
 
 .image {
-    filter: drop-shadow(2px 2px 2px black);
     /* Adds a shadow around all the images on the page with class "image" */
     padding: 10px 0px 0px;
     height: 270px;
@@ -62,6 +61,7 @@ h2, h3 {
     background-color: darkred;
     border: 1px solid white;
     border-radius: 10px;
+    margin-top: 0px;
 }
 
 footer, figure, header, h2, h3, h4, #summary, #faq {
@@ -102,6 +102,23 @@ figure, body {
     padding: 5px 10px;
 }
 
+@media only screen and (max-width: 1000px) {
+    #screenshots {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .caption {
+        display: none;
+    }
+}
+
+#tips {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #tips-and-tricks {
     width: 75%;
     margin: 15px 5px;
@@ -111,7 +128,9 @@ aside {
     width: 20%;
     margin: 2px 0px;
     text-align: center;
-    float: inline-end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #tips-and-tricks, aside {
@@ -122,7 +141,11 @@ aside {
     width: 70%;
     height: auto;
     margin: 15px 2px 0px;
-    filter: drop-shadow(2px 2px 2px black);
+}
+
+.aside-image, .image {
+    filter: drop-shadow(2px 2px 2px darkturquoise);
+    /* Adds a shadow around all the images on the page with class "image" or "aside-image" */
 }
 
 figcaption {
