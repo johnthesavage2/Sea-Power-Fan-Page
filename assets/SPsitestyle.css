@@ -95,7 +95,7 @@ figure, body {
     margin: 15px 10px;
 }
 
-#screenshots, .caption {
+#screenshots  {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -107,40 +107,34 @@ figure, body {
         flex-direction: column;
         align-items: center;
     }
-
-    .caption {
-        display: none;
-    }
 }
 
 #tips {
-    display: flex;
     justify-content: space-between;
+}
+
+#tips, aside {
+    display: flex;
     align-items: center;
 }
 
 #tips-and-tricks {
     width: 75%;
     margin: 15px 5px;
+    display: block;
 }
 
 aside {
     width: 20%;
     margin: 2px 0px;
     text-align: center;
-    display: flex;
     flex-direction: column;
-    align-items: center;
-}
-
-#tips-and-tricks, aside {
-    display: inline-block;
 }
 
 .aside-image {
     width: 70%;
     height: auto;
-    margin: 15px 2px 0px;
+    margin: 15px 2px 5px;
 }
 
 .aside-image, .image {
@@ -149,7 +143,7 @@ aside {
 }
 
 figcaption {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-style: italic;
 }
 
