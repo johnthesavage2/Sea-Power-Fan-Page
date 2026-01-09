@@ -149,3 +149,9 @@ figcaption {
 nav a, header {
     color: darkred;
 }
+
+@media only screen and (max-width: 720px) {
+    nav {
+        font-size: 0.75rem;
+    }
+}
