@@ -61,4 +61,7 @@ a {
     text-decoration: none;
 }
 
+.class {
+    font-weight: bold;
+}
 /* add media query for smaller screens */

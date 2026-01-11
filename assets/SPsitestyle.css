@@ -37,7 +37,6 @@ it work without padding */
 }
 
 .image {
-    /* Adds a shadow around all the images on the page with class "image" */
     padding: 10px 0px 0px;
     height: 270px;
     width: 480px;
@@ -149,4 +148,10 @@ figcaption {
 
 nav a, header {
     color: darkred;
+}
+
+@media only screen and (max-width: 720px) {
+    nav {
+        font-size: 0.75rem;
+    }
 }
