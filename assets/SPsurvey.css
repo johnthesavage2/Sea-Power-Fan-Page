@@ -4,7 +4,10 @@ html {
 
 header {
     background-color: darkred;
+    border: 2px solid black;
+    border-radius: 5px;
     padding: 5px;
+    margin: 0 auto;
 }
 
 body {
@@ -13,7 +16,8 @@ body {
     background-color: darkcyan;
     color: white;
     font-size: 0.75rem;
-    margin: 0 auto;
+    margin: 5px auto;
+    line-height: 1.25;
 }
 
 #submission {
@@ -25,7 +29,13 @@ body {
     margin-bottom: 5px;
 }
 
-#time-period, #combat-type, #selector, #affiliation, #other-matchup, #ship-size, #formation-size, #game-balance, #specific-units, #other-powers {
-    padding: 5px;
+#time-period, #combat-type, #selector, #affiliation, #other-matchup, 
+#ship-size, #formation-size, #game-balance, #specific-units, #other-powers, 
+#more-info {
+    padding: 10px 5px;
     margin: 0 auto;
+    width: 70%;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 5px;
 }
