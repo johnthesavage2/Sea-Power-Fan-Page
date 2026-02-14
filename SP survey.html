@@ -15,13 +15,13 @@
             <p>Fill out this form and submit it and I will make a scenario
                 incorporating these suggestions using the in-game mission editor!</p>
             <form action="index.html" id="mission-survey" method="post">
-                <section id="time-period">
+                <section class="question">
                     <label for="time">What era the game covers (late 1950's- mid 1980's) 
                         interests you the most?</label>
                     <input type="text" id="time" name="time period">
                 </section>
                 <br>
-                <section id="combat-type">
+                <section class="question">
                     <span>What type of combat do you like? (Select all that apply)</span>
                     <br>
                     <input type="checkbox" id="naval combat" name="combat" 
@@ -37,7 +37,7 @@
                     <label for="ground combat">Ground Combat</label>
                 </section>
                 <br>
-                <section id="selector">
+                <section class="question">
                     <span>What type of battles would you prefer playing? 
                         (Select all that apply)</span>
                     <br>
@@ -74,7 +74,7 @@
                     <label for="ground to ground">Ground to Ground</label>
                 </section>
                 <br>
-                <section id="affiliation">
+                <section class="question">
                     <span>Which of the major powers do you prefer playing as?</span>
                     <br>
                     <input type="radio" id="Warsaw Pact" name="affiliation" 
@@ -86,7 +86,7 @@
                     <label for="other">Other (See next question)</label>
                 </section>
                 <br>
-                <section id="other-matchup">
+                <section class="question">
     <!-- Maybe have surveyees choose who to oppose even if they chose nato or wp 
     maybe in a second text input and use prefilled entries there as example -->
                     <span>If you chose 'other' in the last question, which navies would 
@@ -98,7 +98,7 @@
                 </section>
                 <br>
                 <!-- Try to add an option to have multiple selections like checkbox -->
-                <section id="other-powers">
+                <section class="question">
                     <label for="minor power">Any other smaller power you like playing as?</label>
                     <input list="minor powers" id="minor power" name="minor power">
                     <datalist id="minor powers">
@@ -113,7 +113,7 @@
                     </datalist>
                 </section>
                 <br>
-                <section id="ship-size">
+                <section class="question">
                 <!-- Find a way to make each step have its own value-->
                     <label for="size">Do you prefer bigger ships, smaller ships, or a mix of both?</label>
                     <br>
@@ -122,7 +122,7 @@
                     <span>Aircraft Carriers</span>
                 </section>
                 <br>
-                <section id="game-balance">
+                <section class="question">
                     <label for="balance">Would you prefer a balanced, easy, or difficult experience?</label>
                     <br>
                     <span>Very Easy</span>
@@ -130,14 +130,14 @@
                     <span>Very Hard</span>
                 </section>
                 <br>
-                <section id="formation-size">
+                <section class="question">
                     <label for="formation">How many ships do you like
                         in a formation?</label>
                     <input type="number" id="formation" name="formation" min="1"
                     step="1">
                 </section>
                 <br>
-                <section id="specific-units">
+                <section class="question">
                     <label for="units">Any specific ship classes, aircraft types, or 
                         ground units you would want to play with in a mission? Enter 
                     as many as you would like.</label>
@@ -145,7 +145,7 @@
                     <input type="text" id="units" name="units" value="Ticonderoga">
                 </section>
                 <br>
-                <section id="more-info">
+                <section class="question">
                     <label for="comments">Anything else that interests you or you 
                         would want in a mission?</label>
                     <br>

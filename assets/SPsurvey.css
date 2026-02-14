@@ -24,14 +24,18 @@ body {
     height: 100px;
     width: 220px;
     font-size: 1.5rem;
-    background-color: lightseagreen;
+    background-color: white;
     border-radius: 5px;
     margin-bottom: 5px;
 }
 
-#time-period, #combat-type, #selector, #affiliation, #other-matchup, 
-#ship-size, #formation-size, #game-balance, #specific-units, #other-powers, 
-#more-info {
+#submission:hover {
+    background-color: darkred;
+    color: black;
+    font-weight: bold;
+}
+
+.question {
     padding: 10px 5px;
     margin: 0 auto;
     width: 70%;

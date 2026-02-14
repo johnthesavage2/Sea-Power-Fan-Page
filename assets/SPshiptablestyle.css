@@ -30,11 +30,21 @@ nav a {
     color: darkred;
 }
 
+nav a:hover {
+    color: black;
+    text-shadow: 2px 2px 2px white;
+}
+
+header {
+    padding: 10px;
+    background-color: darkred;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 2% auto;
+}
+
 h1 {
     font-size: 2em;
-    border: 2px solid white;
-    background-color: darkred;
-    border-radius: 5px;
 }
 
 .image {
@@ -59,6 +69,10 @@ table, th, td, .notes {
 
 a {
     text-decoration: none;
+}
+
+a:hover {
+    color: white;
 }
 
 .class {

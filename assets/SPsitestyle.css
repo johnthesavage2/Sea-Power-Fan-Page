@@ -23,6 +23,11 @@ nav a {
     text-shadow: 1px 1px 1px white;
 }
 
+nav a:hover{
+    color: black;
+    text-shadow: 2px 2px 2px white;
+}
+
 header {
     font-size: 2.5rem;
     background-image: url("./images/SP\ kara.png");
@@ -51,6 +56,10 @@ body {
     font-size: 1rem;
     line-height: 1.5; /* Increases space between lines, improves readability */
     word-spacing: 0.1em; /* Increases space between words slightly */
+}
+
+a:hover {
+    color: darkred;
 }
 
 h2, h3 {
