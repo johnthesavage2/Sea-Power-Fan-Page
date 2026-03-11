@@ -76,6 +76,10 @@ footer, figure, header, h2, h3, h4, #summary, #faq {
     text-align: center;
 }
 
+.about-the-game {
+    width: 60%;
+}
+
 .question {
     font-size: 1.25rem;
 }
