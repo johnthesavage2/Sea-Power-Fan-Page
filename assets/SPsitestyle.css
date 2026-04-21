@@ -76,15 +76,12 @@ footer, figure, header, h2, h3, h4, #summary, #faq {
     text-align: center;
 }
 
-.about-the-game {
-    width: 60%;
-}
-
-.question {
+span {
     font-size: 1.25rem;
+    color: lightblue;
 }
 
-.question, nav {
+nav, span {
     font-weight: bold;
 }
 
@@ -164,7 +161,19 @@ nav a, header {
 }
 
 @media only screen and (max-width: 720px) {
-    nav {
+    body, nav {
         font-size: 0.75rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2, h3 {
+        font-size: 1.25rem;
+    }
+
+    span {
+        font-size: 1rem;
     }
 }
