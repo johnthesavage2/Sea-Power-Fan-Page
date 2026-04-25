@@ -5,8 +5,10 @@ html {
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    background-color: darkcyan;
     color: white;
+    background-image: url("./images/SP\ background.png");
+    background-repeat: repeat;
+    background-size: contain;
     margin: 0;
 }
 
@@ -77,5 +79,19 @@ a:hover {
 
 .class {
     font-weight: bold;
+}
+
+@media only screen and (max-width: 480px) {
+    .screenshot, #image-column {
+        display: none;
+    }
+
+    .notes {
+        font-size: 0.5em;
+    }
+
+    header {
+        width: 100%;
+    }
 }
 /* add media query for smaller screens */
