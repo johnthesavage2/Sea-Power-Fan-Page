@@ -8,7 +8,7 @@ body {
     color: white;
     background-image: url("./images/SP\ background 3.png");
     background-repeat: repeat;
-    background-size: contain;
+    background-size: cover;
     margin: 0;
 }
 

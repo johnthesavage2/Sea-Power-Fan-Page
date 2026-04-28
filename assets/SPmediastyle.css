@@ -7,9 +7,13 @@ body {
     background-color: darkcyan;
     background-image: url("./images/SP\ background\ 3.png");
     background-repeat: repeat;
-    background-size: contain;
+    background-size: cover;
     color: white;
     margin: 0 auto;
+}
+
+header {
+    margin: 10px 0px
 }
 
 h1 {
@@ -17,15 +21,17 @@ h1 {
     font-weight: bold;
     text-transform: uppercase;  
     margin: auto 40%;
-
 }
 
 h2 {
     font-size: 1.5rem;
 }
 
-h1, h2 {
+h1, h2, .image-caption, #video {
     text-align: center;
+}
+
+h1, h2 {
     padding: 0.5rem;
     background-color: darkred;
     border: 2px solid white;
@@ -42,7 +48,6 @@ main {
 
 .image-caption {
     display: inline-block;
-    text-align: center;
     margin: 10px;
 }
 
@@ -62,7 +67,7 @@ main {
 }
 
 figcaption {
-    padding: 5px 5px 10px;
+    padding: 5px 5px;
     background-color: darkred;
     border: 1px solid white;
     border-radius: 5px;
@@ -70,10 +75,13 @@ figcaption {
 }
 
 #video {
-    text-align: center;
     padding: 10px;
     position: relative;
 }
 
-
+@media only screen and (max-width: 720px) {
+    h1 {
+        margin: auto 20%;
+    }
+}
 /* Have padding around the images and videos, use justify content and related */
