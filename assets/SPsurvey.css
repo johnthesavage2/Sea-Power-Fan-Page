@@ -14,6 +14,9 @@ body {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: darkcyan;
+    background-image: url("./images/SP\ background\ 3.png");
+    background-size: cover;
+    background-repeat: repeat;
     color: white;
     font-size: 0.75rem;
     margin: 5px auto;
@@ -24,7 +27,7 @@ body {
     height: 100px;
     width: 220px;
     font-size: 1.5rem;
-    background-color: white;
+    background-color: darkcyan;
     border-radius: 5px;
     margin-bottom: 5px;
 }
