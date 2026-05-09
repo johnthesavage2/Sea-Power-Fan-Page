@@ -51,7 +51,7 @@ main {
     margin: 10px;
 }
 
-.screenshots {
+.screenshots, #gameplay-videos {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
