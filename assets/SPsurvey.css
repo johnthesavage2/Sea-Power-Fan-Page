@@ -5,9 +5,12 @@ html {
 header {
     background-color: darkred;
     border: 2px solid black;
-    border-radius: 5px;
     padding: 5px;
     margin: 0 auto;
+}
+
+header, #submission, .question {
+    border-radius: 5px;
 }
 
 body {
@@ -28,7 +31,6 @@ body {
     width: 220px;
     font-size: 1.5rem;
     background-color: darkcyan;
-    border-radius: 5px;
     margin-bottom: 5px;
 }
 
@@ -44,5 +46,4 @@ body {
     width: 70%;
     background-color: black;
     border: 2px solid white;
-    border-radius: 5px;
 }

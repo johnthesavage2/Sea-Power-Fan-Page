@@ -33,13 +33,20 @@ h1, h2, .image-caption, #video {
 
 h1, h2 {
     padding: 0.5rem;
+}
+
+h1, h2, span, figcaption {
+    border-radius: 5px;
     background-color: darkred;
     border: 2px solid white;
-    border-radius: 5px;
 }
 
 main {
     margin: auto 0;
+}
+
+span, figcaption {
+    padding: 5px;
 }
 
 #images {
@@ -58,6 +65,13 @@ main {
     padding: 5px 0px;
 }
 
+.video-caption {
+    background-color: black;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
 .image, .videos {
     filter: drop-shadow(2px 2px 2px black);
     height: 270px;
@@ -67,16 +81,16 @@ main {
 }
 
 figcaption {
-    padding: 5px 5px;
-    background-color: darkred;
-    border: 1px solid white;
-    border-radius: 5px;
     font-size: 0.8rem;
 }
 
 #video {
-    padding: 10px;
     position: relative;
+}
+
+h3 {
+    font-style: italic;
+    font-size: 1.25rem;
 }
 
 @media only screen and (max-width: 720px) {
