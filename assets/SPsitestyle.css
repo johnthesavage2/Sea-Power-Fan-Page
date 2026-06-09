@@ -97,9 +97,6 @@ figure, body {
     background-image: url("./images/SP\ background 3.png");
     background-repeat: repeat;
     background-size: cover;
-}
-
-#media, section, footer {
     margin: 30px 30px;
 }
 
@@ -138,7 +135,7 @@ aside {
     flex-direction: column;
 }
 
-.aside-image {
+aside img {
     width: 70%;
     height: auto;
     margin: 15px 2px 5px;
@@ -185,8 +182,8 @@ nav a, header {
         margin: 15px 0px;
     }
 
-    .aside-image {
-        width: 50%;
+    aside img {
+        width: 40%;
         height: auto;
     }
 }

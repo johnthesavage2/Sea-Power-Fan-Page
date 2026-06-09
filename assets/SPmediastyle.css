@@ -72,7 +72,7 @@ span, figcaption {
     border-radius: 10px;
 }
 
-.image, .videos {
+.image-caption img, .videos {
     filter: drop-shadow(2px 2px 2px black);
     height: 270px;
     width: 480px;
