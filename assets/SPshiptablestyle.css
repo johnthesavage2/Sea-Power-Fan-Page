@@ -32,6 +32,16 @@ nav a {
     color: darkred;
 }
 
+.breadcrumbs li+li::before {
+    content: "/";
+    padding: 0 5px;
+}
+
+.breadcrumbs {
+    display: flex;
+    font-size: 0.75em;
+}
+
 nav a:hover {
     color: black;
     text-shadow: 2px 2px 2px white;
