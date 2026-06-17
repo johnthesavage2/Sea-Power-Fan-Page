@@ -16,10 +16,36 @@ header {
     margin: 10px 0px
 }
 
+nav {
+    background-color: rgba(135, 206, 235, 100%);
+    top: 0;
+    width: 100%;
+    border: 1px solid black;
+}
+
+nav li {
+    display: inline-block;
+    padding: 4px 10px;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.breadcrumbs li+li::before {
+    content: "/";
+    padding: 0 5px;
+}
+
+.breadcrumbs {
+    display: flex;
+    font-size: 0.75em;
+}
+
 h1 {
     font-size: 2rem;
-    font-weight: bold;
-    text-transform: uppercase;  
+    font-weight: bold;  
     margin: auto 40%;
 }
 
