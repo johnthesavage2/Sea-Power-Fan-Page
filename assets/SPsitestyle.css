@@ -9,7 +9,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgba(135, 206, 235, 95%);
+    background-color: rgba(84, 204, 164, 85%);
     z-index: 1;
 }
 
@@ -59,7 +59,7 @@ body {
 }
 
 a:hover {
-    color: darkred;
+    color: rgb(84, 204, 164);
 }
 
 h2, h3 {
