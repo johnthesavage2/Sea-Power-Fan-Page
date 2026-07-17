@@ -1,7 +1,7 @@
 html {
     font-size: 20px;
 }
-
+/* add different fonts for h1, h2, etc */
 /* top puts it above everything else, fixed position keeps it fixed at the top
 maybe add opacity, didn't look right when I first tried it */
 nav {
