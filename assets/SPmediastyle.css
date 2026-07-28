@@ -17,15 +17,15 @@ header {
 }
 
 h1 {
-    font-size: 2.25rem;
+    font-size: 2.5rem;
     font-weight: bold;  
 }
 
 h2 {
-    font-size: 1.75rem;
+    font-size: 2rem;
 }
 
-h1, h2, .image-caption, #video {
+h1, h2, .pics, #video {
     text-align: center;
 }
 
@@ -52,12 +52,12 @@ span, figcaption {
     margin: 0;
 }
 
-.image-caption {
+.pics {
     display: inline-block;
     margin: 10px;
 }
 
-.screenshots, #gameplay-videos {
+.screenshots, .gameplay {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -71,7 +71,7 @@ span, figcaption {
     border-radius: 10px;
 }
 
-.image-caption img, .videos {
+.pics img, .videos {
     filter: drop-shadow(2px 2px 2px black);
     height: 270px;
     width: 480px;
@@ -85,6 +85,10 @@ figcaption {
 
 #video {
     position: relative;
+}
+
+.gameplay {
+    margin-top: 0.5rem;
 }
 
 h3 {
