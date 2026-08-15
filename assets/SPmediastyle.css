@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    margin: 10px 0px
+    margin: 0.5rem 0px;
 }
 
 h1 {
@@ -35,9 +35,12 @@ h1, h2 {
 }
 
 h1, h2, span, figcaption {
-    border-radius: 5px;
     background-color: darkred;
     border: 2px solid white;
+}
+
+h1, h2, span, figcaption, .video-caption {
+    border-radius: 0.25rem;
 }
 
 main {
@@ -45,7 +48,11 @@ main {
 }
 
 span, figcaption {
-    padding: 8px;
+    padding: 0.4rem;
+}
+
+span {
+    display: block;
 }
 
 #images {
@@ -54,28 +61,27 @@ span, figcaption {
 
 .pics {
     display: inline-block;
-    margin: 10px;
+    margin: 0.5rem;
 }
 
 .screenshots, .gameplay {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    padding: 5px 0px;
+    padding: 0.25rem 0px;
 }
 
 .video-caption {
     background-color: black;
-    margin: 5px;
+    margin: 0.25rem;
     border: 1px solid black;
-    border-radius: 10px;
 }
 
 .pics img, .videos {
     filter: drop-shadow(2px 2px 2px black);
     height: 270px;
     width: 480px;
-    padding: 10px 10px 5px;
+    padding: 0.5rem 0.5rem 0.25rem;
     max-width: 100%;
 }
 
@@ -99,6 +105,28 @@ h3 {
 @media only screen and (max-width: 720px) {
     h1 {
         margin: auto 20%;
+        font-size: 2rem;
+    }
+
+    h2 {
+        margin: auto 30%;
+        font-size: 1.5rem;
+    }
+
+    span {
+        display: block;
+        margin-top: 0.5rem;
+        font-size: 0.75rem;
+    }
+
+    .pics img, .videos {
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 721px) {
+    body {
+        width: 100%;
     }
 }
 /* Have padding around the images and videos, use justify content and related */

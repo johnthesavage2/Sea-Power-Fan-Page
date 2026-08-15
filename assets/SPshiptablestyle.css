@@ -93,7 +93,7 @@ a:hover {
 }
 
 @media only screen and (max-width: 480px) {
-    .screenshot, #image-column {
+    .screenshot, #image-column, .displacement, .link {
         display: none;
     }
 

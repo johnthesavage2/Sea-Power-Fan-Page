@@ -1,16 +1,16 @@
 html {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 header {
     background-color: darkred;
     border: 2px solid black;
-    padding: 5px;
+    padding: 0.2rem;
     margin: 0 auto;
 }
 
 header, #submission, .question {
-    border-radius: 5px;
+    border-radius: 0.2px;
 }
 
 h1, h2, #submission {
@@ -25,17 +25,17 @@ body {
     background-size: cover;
     background-repeat: repeat;
     color: white;
-    font-size: 0.75rem;
-    margin: 5px auto;
+    font-size: 1rem;
+    margin: 0.2rem auto;
     line-height: 1.25;
 }
 
 #submission {
-    height: 100px;
-    width: 220px;
+    height: 4rem;
+    width: 9rem;
     font-size: 1.5rem;
     background-color: darkcyan;
-    margin-bottom: 5px;
+    margin-bottom: 0.2rem;
 }
 
 #submission:hover {
@@ -46,7 +46,7 @@ body {
 }
 
 .question {
-    padding: 10px 5px;
+    padding: 0.4rem 0.2rem;
     margin: 0 auto;
     width: 70%;
     background-color: black;

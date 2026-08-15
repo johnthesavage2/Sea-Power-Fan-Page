@@ -30,8 +30,8 @@
                             <th scope="col">Class Name*</th>
                             <th scope="col">Affiliation</th>
                             <th scope="col">Ship Type**</th>
-                            <th scope="col">Displacement (tons)***</th>
-                            <th scope="col">Link</th>
+                            <th scope="col" class="displacement">Displacement (tons)***</th>
+                            <th scope="col" class="link">Link</th>
                             <th scope="col" id="image-column">In-game Image</th>
                             <th scope="col">Notes</th>
                         </tr>
@@ -41,16 +41,16 @@
                             <td class="class">Nimitz</td>
                             <td rowspan="4">US</td>
                             <td rowspan="6">Aircraft Carrier</td>
-                            <td>100,000</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Nimitz-class_aircraft_carrier" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">100,000</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Nimitz-class_aircraft_carrier" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Nimitz.jpg" alt="Nimitz-class Carrier" class="image"></td>
                             <td class="notes">10-ship class of nuclear-powered supercarriers. First warships to displace 100,000 tons or more. All are currently 
                                 in service, although the lead ship (USS Nimitz) is due to be decommissioned by 2026.</td>
                         </tr>
                         <tr>
                             <td class="class">Enterprise</td>
-                            <td>94,000</td>
-                            <td><a href="https://en.wikipedia.org/wiki/USS_Enterprise_(CVN-65)" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">94,000</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/USS_Enterprise_(CVN-65)" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Enterprise.jpg" alt="USS Enterprise at sea" class="image"></td>
                             <td class="notes">First nuclear-powered aircraft carrier, only ship of its class. Had eight nuclear reactors and an 
                                 experimental radar system, which gave the island its boxy shape. The starship Enterprise from Star Trek 
@@ -58,8 +58,8 @@
                         </tr>
                         <tr>
                             <td class="class">Kitty Hawk</td>
-                            <td>83,000</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Kitty_Hawk-class_aircraft_carrier" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">83,000</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Kitty_Hawk-class_aircraft_carrier" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Kitty Hawk.jpg" class="image" alt="US Kitty Hawk carrier"></td>
                             <td class="notes">Second class of US supercarrier, and last class of conventionally powered carriers in US service.
                                 They improved the layout of the flight deck compared to the Forrestal class, which made aircraft handling easier. 
@@ -67,8 +67,8 @@
                         </tr>
                         <tr>
                             <td class="class">Forrestal</td>
-                            <td>82,000</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Forrestal-class_aircraft_carrier" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">82,000</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Forrestal-class_aircraft_carrier" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Forrestal.jpg" class="image" alt="US Forrestal carrier"></td>
                             <td class="notes">First class of supercarrier built. Could carry about 80-90 aircraft. The first two were built 
                                 as straight-decked carriers and converted to angled-deck later, while the last two were built from the start 
@@ -78,8 +78,8 @@
                         <tr>
                             <td class="class">Orel</td>
                             <td rowspan="3">USSR</td>
-                            <td>80,000</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Project_1153_Orel" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">80,000</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Project_1153_Orel" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Orel.jpg" alt="Soviet Orel-class aircraft carrier" class="image"></td>
                             <td class="notes">Was designed in the 1970's but never built. Similar to other Soviet carriers, it was designed with anti-ship 
                                 missiles, unlike US supercarriers. It was designed as a nuclear-powered carrier, which would have been the first for the 
@@ -88,8 +88,8 @@
                         </tr>
                         <tr>
                             <td class="class">Kiev</td>
-                            <td>42,000</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Kiev-class_aircraft_carrier" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">42,000</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Kiev-class_aircraft_carrier" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Kiev.jpg" alt="Soviet Kiev-class aircraft carrier" class="image"></td>
                             <td class="notes">Called a "Heavy Aviation Cruiser" by the Soviets. Had anti-ship missiles in the front of the ship with a flight 
                                 deck in the rear for VTOL aircraft and helicopters. 4 ships were built, 1 to a modified design that can be considered a 
@@ -98,8 +98,8 @@
                         <tr>
                             <td class="class">Moskva</td>
                             <td rowspan="2">Helicopter Carrier</td>
-                            <td>15,300</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Moskva-class_helicopter_carrier" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">15,300</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Moskva-class_helicopter_carrier" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Moskva.jpg" alt="Soviet Moskva helicopter carrier" class="image"></td>
                             <td class="notes">Carried around 12-16 helicopters and a simple SAM system. Optimized for hunting US submarines. Were seen as 
                                 top-heavy and so never served in the Northern Fleet, instead serving in the Black Sea. Two ships were built.</td>
@@ -107,8 +107,8 @@
                         <tr>
                             <td class="class">Haruna</td>
                             <td>Japan</td>
-                            <td>6,900</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Haruna-class_destroyer" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">6,900</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Haruna-class_destroyer" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Haruna.jpg" class="image" alt="Japanese Haruna destroyer"></td>
                             <td class="notes">Called a helicopter destroyer but more appropriately a helicopter carrier. Had a flight deck and hangar 
                                 that took up most of the rear of the ship, with 5" guns and a US ASROC launcher up front. Later modified with more 
@@ -118,8 +118,8 @@
                             <td class="class">Iowa</td>
                             <td>US</td>
                             <td>Battleship</td>
-                            <td>58,400</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Iowa-class_battleship" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">58,400</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Iowa-class_battleship" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Iowa.jpg" class="image" alt="US Iowa battleship"></td>
                             <td class="notes">Likely the most recognizable class of battleships in the world. Four were built during WWII, all 
                                 of them seeing action, with USS Missouri being the location for the surrender ceremony that ended the war. All four 
@@ -130,8 +130,8 @@
                             <td class="class">Sverdlov</td>
                             <td rowspan="7">USSR</td>
                             <td>Cruiser</td>
-                            <td>16,600</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Sverdlov-class_cruiser" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">16,600</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Sverdlov-class_cruiser" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Sverdlov.jpg" class="image" alt="Soviet Sverdlov cruiser"></td>
                             <td class="notes">Class of conventional (Aka WWII-era) cruisers built just after WWII. Were intended to project power 
                                 outside the immediate area of the Soviet Union as part of Stalin's postwar goals, but production was cut back after 
@@ -141,8 +141,8 @@
                         <tr>
                             <td class="class">Kirov</td>
                             <td rowspan="13">Guided Missile Cruiser</td>
-                            <td>28,000</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Kirov-class_battlecruiser" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">28,000</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Kirov-class_battlecruiser" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Kirov.jpg" alt="Soviet Kirov-class battlecruiser" class="image"></td>
                             <td class="notes">Large Guided Missile Cruiser, sometimes called a battlecruiser. Had a heavy anti-ship missile armament and 
                                 several SAM (surface-to-air missile) systems, including the S-300 area-defense system. Had a partial nuclear and conventional 
@@ -151,8 +151,8 @@
                         </tr>
                         <tr>
                             <td class="class">Slava</td>
-                            <td>11,500</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Slava-class_cruiser" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">11,500</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Slava-class_cruiser" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Slava.jpg" alt="Soviet Slava-class cruiser" class="image"></td>
                             <td class="notes">Had 16 anti-ship missiles in 8 twin launchers arrayed on either side of the superstructure, along with 
                                 the S-300 system. The lead ship, Slava (renamed to Moskva) was sunk in the Black Sea by Ukranian anti-ship missiles during the 
@@ -160,8 +160,8 @@
                         </tr>
                         <tr>
                             <td class="class">Kynda</td>
-                            <td>5,500</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Kynda-class_cruiser" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">5,500</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Kynda-class_cruiser" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Kynda.jpg" alt="Soviet Kynda cruiser" class="image"></td>
                             <td class="notes">First purpose-built Soviet missile crusiers. Carried the SS-N-3 missile in two trainable quad launchers, 
                                 with a single reload per tube. Were top-heavy and consequently never served in the Soviet Northern Fleet, as 
@@ -169,8 +169,8 @@
                         </tr>
                         <tr>
                             <td class="class">Kara</td>
-                            <td>9,700</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Kara-class_cruiser" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">9,700</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Kara-class_cruiser" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Kara.jpg" alt="Soviet Kara-class cruiser" class="image"></td>
                             <td class="notes">Successors to the Kresta II class, and were designed from the ground up as an anti-submarine cruiser 
                                 with the SS-N-14, or Metel, rocket-propelled torpedo, and multiple anti-air and anti-submarine systems. One was used 
@@ -178,16 +178,16 @@
                         </tr>
                         <tr>
                             <td class="class">Kresta II</td>
-                            <td>7,500</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Kresta_II-class_cruiser" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">7,500</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Kresta_II-class_cruiser" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Kresta II.jpg" alt="Soviet Kresta II-class cruiser" class="image"></td>
                             <td class="notes">Similar design to the Kresta I, but switched to anti-submarine warfare instead of anti-ship due to a change 
                                 in Soviet naval priorities. Has similar but somewhat lesser capabilities as the Kara, which succeeded them.</td>
                         </tr>
                         <tr>
                             <td class="class">Kresta I</td>
-                            <td>7,500</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Kresta_I-class_cruiser" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">7,500</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Kresta_I-class_cruiser" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Kresta I.jpg" alt="Soviet Kresta I-class cruiser" class="image"></td>
                             <td class="notes">Follow-on to Kyndas, with 4 anti-ship missiles. Designed as an anti-ship cruiser, production was cut short 
                                 once the Soviet Navy switched to anti-submarine ships like the Kara and Kresta II.</td>
@@ -195,8 +195,8 @@
                         <tr>
                             <td class="class">Alaska (Strike Cruiser)</td>
                             <td rowspan="7">US</td>
-                            <td>16,000</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Strike_cruiser" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">16,000</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Strike_cruiser" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Alaska.jpg" class="image"></td>
                             <td class="notes">The Strike Cruiser was developed to take advantage of the Aegis Combat System, and was designed with many of
                                 the most advanced weapons and sensors of the time, including an 8-in gun, which wasn't seen on many post-WWII ships. The project
@@ -204,8 +204,8 @@
                         </tr>
                         <tr>
                             <td class="class">Ticonderoga</td>
-                            <td>9,800</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Ticonderoga-class_cruiser" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">9,800</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Ticonderoga-class_cruiser" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Ticonderoga.jpg" class="image" alt="US Ticonderoga cruiser"></td>
                             <td class="notes">Built on the same hull as the Spruance and Kidd class destroyers, but had a much bigger superstructure. 
                                 Was one of the first US ships to carry the Aegis Combat System, which allows ships to network and share combat information 
@@ -214,8 +214,8 @@
                         </tr>
                         <tr>
                             <td class="class">Long Beach</td>
-                            <td>15,500</td>
-                            <td><a href="https://en.wikipedia.org/wiki/USS_Long_Beach_(CGN-9)" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">15,500</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/USS_Long_Beach_(CGN-9)" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Long Beach.jpg" class="image" alt="USS Long Beach"></td>
                             <td class="notes">Shared a lot of characteristics with the USS Enterprise: first nuclear-powered ship of it's type, had the 
                                 experimental radar system that Enterprise had, and the only member of it's class. The ship underwent a refit 
@@ -223,8 +223,8 @@
                         </tr>
                         <tr>
                             <td class="class">Virginia</td>
-                            <td>11,800</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Virginia-class_cruiser" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">11,800</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Virginia-class_cruiser" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Virginia.jpg" alt="US Virginia class cruiser" class="image"></td>
                             <td class="notes">Nuclear-powered class of cruisers, received sensor and weapons upgrades later in life. They were decommissioned 
                                 before being refueled after the fall of the Soviet Union due to the expense of operating nuclear cruisers, along with USS Long
@@ -232,23 +232,23 @@
                         </tr>
                         <tr>
                             <td class="class">Belknap</td>
-                            <td>7,900</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Belknap-class_cruiser" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">7,900</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Belknap-class_cruiser" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Belknap.jpg" class="image" alt="US Belknap cruiser"></td>
                             <td class="notes">Used the SM-2ER SAM (surface-to-air) missile, which had an effective range of approx. 80 nm. Had a single 
                                 nuclear-powered variant, USS Truxtun.</td>
                         <tr>
                             <td class="class">Leahy</td>
-                            <td>7,800</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Leahy-class_cruiser" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">7,800</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Leahy-class_cruiser" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Leahy.jpg" alt="Leahy class cruiser" class="image"></td>
                             <td class="notes">Similar to the Belknap class, but had missile launchers at either end, instead of the aft helicopter 
                                 hangar and landing pad that the Belknaps had. Also had a nuclear-powered variant, USS Bainbridge.</td>
                         </tr>
                         <tr>
                             <td class="class">California</td>
-                            <td>10,800</td>
-                            <td><a href="https://en.wikipedia.org/wiki/California-class_cruiser" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">10,800</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/California-class_cruiser" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/California.jpg" alt="US California cruiser" class="image"></td>
                             <td class="notes">Class of two nuclear-powered cruisers. Used single-arm missile launchers instead of the more common 
                                 twin-arm launchers for US missile cruisers. They were decommissioned soon after a refit at the end of the Cold War.</td>
@@ -257,8 +257,8 @@
                             <td class="class">Sovremenny</td>
                             <td rowspan="5">USSR</td>
                             <td rowspan="10">Guided Missile Destroyer</td>
-                            <td>8,000</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Sovremenny-class_destroyer" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">8,000</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Sovremenny-class_destroyer" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Sovremenny.jpg" alt="Soviet Sovremenny destroyer" class="image"></td>
                             <td class="notes">Guided Missile Destroyer primarily armed with anti-ship missiles and a more modern SAM 
                                 system. Complements the Udaloy-class destroyers, which are optimized for anti-submarine warfare. A 
@@ -266,8 +266,8 @@
                         </tr>
                         <tr>
                             <td class="class">Udaloy</td>
-                            <td>7,500</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Udaloy-class_destroyer" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">7,500</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Udaloy-class_destroyer" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Udaloy.jpg" alt="Soviet Udaloy destroyer" class="image"></td>
                             <td class="notes">Guided Missile destroyer, built as a complement to the Sovremennys while being oriented towards ASW. 
                                 Armed with the SS-N-14 missile system that the Kara, Krivak, and Kresta II's carry, along with a naval version of 
@@ -275,16 +275,16 @@
                         </tr>
                         <tr>
                             <td class="class">Kashin</td>
-                            <td>4,400</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Kashin-class_destroyer" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">4,400</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Kashin-class_destroyer" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Kashin.jpg" alt="Soviet Kashin destroyer" class="image"></td>
                             <td class="notes">Soviet destroyers built in the 60s for anti-submarine warfare. Advanced for their time but were less 
                                 capable by the early 80s.</td>
                         </tr>
                         <tr>
                             <td class="class">Kashin Mod</td>
-                            <td>4,950</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Mod_Kashin-class_destroyer" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">4,950</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Mod_Kashin-class_destroyer" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Kashin Mod.jpg" alt="Soviet Kashin Mod destroyer" class="image"></td>
                             <td class="notes">An upgraded variant of the Kashin class. Differed from the base form by carrying 4 SS-N-2 anti-ship 
                                 missiles, 4 CIWS systems, and increased superstructure and helicopter platform. 5 normal Kashins were upgraded while 
@@ -292,8 +292,8 @@
                         </tr>
                         <tr>
                             <td class="class">Kanin</td>
-                            <td>4,500</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Kanin-class_destroyer" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">4,500</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Kanin-class_destroyer" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Kanin.jpg" alt="Soviet Kanin destroyer" class="image"></td>
                             <td class="notes">Developed initially with anti-ship missiles in the late 50s, they were converted into ASW after that 
                                 proved unsatisfactory.</td>
@@ -301,8 +301,8 @@
                         <tr>
                             <td class="class">Kidd</td>
                             <td rowspan="3">US</td>
-                            <td>9,800</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Kidd-class_destroyer" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">9,800</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Kidd-class_destroyer" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Kidd.jpg" alt="Kidd class US destroyer" class="image"></td>
                             <td class="notes">Built to a similar design as the Spruance-class destroyers, but was optimized for anti-air warfare 
                                 instead of anti-submarine. Initially built for Iran by the US but the deterioration between the two countries after 
@@ -311,8 +311,8 @@
                         </tr>
                         <tr>
                             <td class="class">Adams</td>
-                            <td>4,500</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Charles_F._Adams-class_destroyer" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">4,500</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Charles_F._Adams-class_destroyer" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Adams.jpg" alt="US Adams class destroyer" class="image"></td>
                             <td class="notes">First purpose-built guided missile destroyer built by the US. Was upgraded later in their service but 
                                 was decommissioned in the 80's once the Arleigh Burke class destroyers, the US Navy's current destroyer class, entered 
@@ -320,8 +320,8 @@
                         </tr>
                         <tr>
                             <td class="class">Coontz</td>
-                            <td>5,600</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Farragut-class_destroyer_(1958)" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">5,600</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Farragut-class_destroyer_(1958)" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Coontz.jpg" alt="US Coontz class destroyer" class="image"></td>
                             <td class="notes">First class of US guided missile destroyers. First three were armed with naval guns, but were later 
                                 retrofitted with missile launchers. The remaining seven were built as missile destroyers from the start.</td>
@@ -329,8 +329,8 @@
                         <tr>
                             <td class="class">Perth</td>
                             <td>Australia</td>
-                            <td>3,370</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Perth-class_destroyer" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">3,370</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Perth-class_destroyer" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Perth (1).jpg" alt="Australian Perth class destroyer" class="image"></td>
                             <td class="notes">Built to an almost identical design to the Adams class of US DDGs, although they included the homegrown Ikara
                                 ASW missile system instead of the US ASROC system. All three were built in the US, and served for more than 30 years,
@@ -339,8 +339,8 @@
                         <tr>
                             <td class="class">Tachikaze</td>
                             <td rowspan="4">Japan</td>
-                            <td>4,000</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Tachikaze-class_destroyer" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">4,000</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Tachikaze-class_destroyer" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Tachikaze.jpg" class="image" alt="Japanese Tachikaze destroyer"></td>
                             <td class="notes">One of the first Japanese Cold War-era destroyers to feature a missile-based air defense system, having the 
                                 same Mk 13 missile launcher as the US Perry class and others. Otherwise they followed Japanese design practices by being 
@@ -349,8 +349,8 @@
                         <tr>
                             <td class="class">Minegumo</td>
                             <td rowspan="5">Destroyer</td>
-                            <td>2,800</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Minegumo-class_destroyer" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">2,800</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Minegumo-class_destroyer" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Minegumo.jpg" class="image" alt="Japanese Minegumo destroyer"></td>
                             <td class="notes">Built concurrently with the Yamagumo class, with a similar loadout that heavily focused on ASW and 
                                 therefore had few to no weapons for other roles. Carried the DASH helicopter drone, but that proved unsatisfactory 
@@ -358,8 +358,8 @@
                         </tr>
                         <tr>
                             <td class="class">Yamagumo</td>
-                            <td>2,100-2,200</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Yamagumo-class_destroyer" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">2,100-2,200</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Yamagumo-class_destroyer" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Yamagumo.jpg" class="image" alt="Japanese Yamagumo destroyer"></td>
                             <td class="notes">Similar to the Minegumo class, but lacked a helipad and hangar for the DASH drone, but had the ASROC 
                                 Anti-submarine missile launcher, which the Minegumos lacked. Construction of the type was restarted after abandoning 
@@ -367,8 +367,8 @@
                         </tr>
                         <tr>
                             <td class="class">Takatsuki</td>
-                            <td>4,600</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Takatsuki-class_destroyer" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">4,600</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Takatsuki-class_destroyer" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Takatsuki.jpg" class="image" alt="Japanese Takatsuki destroyer"></td>
                             <td class="notes">Similar to the Minegumo and Yamagumo classes, but had an increased gun caliber for the main guns. Also 
                                 had the DASH drones, which were removed later. Were upgraded with short-range air defense systems, although this is not 
@@ -377,8 +377,8 @@
                         <tr>
                             <td class="class">Spruance</td>
                             <td>US</td>
-                            <td>8,700</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Spruance-class_destroyer" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">8,700</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Spruance-class_destroyer" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Spruance.jpg" alt="US Spruance destroyer" class="image"></td>
                             <td class="notes">Classified as destroyers instead of guided missile destroyers due to a lack of area-defense SAM 
                                 system, instead having point-defense SAM systems. Optimized for ASW, they had two helicopters. 
@@ -387,8 +387,8 @@
                         <tr>
                             <td class="class">Luda I</td>
                             <td>China</td>
-                            <td>3,670</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Type_051_destroyer" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">3,670</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Type_051_destroyer" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Luda I.jpg" class="image" alt="Chinese Luda I destroyer"></td>
                             <td class="notes">The first guided missile destroyers built by the PLAN, called the Type 051 destroyer, and based 
                                 on Soviet destroyers. The Luda I included the Type 051, 051D, and 051Z and were armed with 130 mm and 37 mm guns, 
@@ -400,8 +400,8 @@
                             <td class="class">Perry</td>
                             <td>US</td>
                             <td rowspan="2">Guided Missile Frigate</td>
-                            <td>4,200</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Oliver_Hazard_Perry-class_frigate" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">4,200</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Oliver_Hazard_Perry-class_frigate" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Perry.jpg" class="image" alt=" US Perry frigate"></td>
                             <td class="notes">Built as ocean escorts for anything from merchant convoys to carrier strike groups. Had two different 
                                 variants, which determined what helicopters the ships could carry. 71 were built, including 51 for the US Navy and 
@@ -411,8 +411,8 @@
                         <tr>
                             <td class="class">Krivak</td>
                             <td>USSR</td>
-                            <td>3,300</td>
-                            <td><a href="https://en.wikipedia.org/wiki/Krivak-class_frigate" target="_blank">Wikipedia</a></td>
+                            <td class="displacement">3,300</td>
+                            <td class="link"><a href="https://en.wikipedia.org/wiki/Krivak-class_frigate" target="_blank">Wikipedia</a></td>
                             <td class="screenshot"><img src="./assets/images/Krivak.jpg" alt="Soviet Krivak frigate" class="image"></td>
                             <td class="notes">Had the same SS-N-14 system that the Udaloy, Kresta II, and Kara classes carried, but in a "hot dog" 
                                 1x4 launcher. 32 were built in several different variants, including one variant for the KGB Border Guard. One of 
