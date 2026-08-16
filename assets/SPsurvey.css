@@ -10,7 +10,7 @@ header {
 }
 
 header, #submission, .question {
-    border-radius: 0.2px;
+    border-radius: 0.2rem;
 }
 
 h1, h2, #submission {
@@ -30,6 +30,12 @@ body {
     line-height: 1.25;
 }
 
+form {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
 #submission {
     height: 4rem;
     width: 9rem;
@@ -47,8 +53,28 @@ body {
 
 .question {
     padding: 0.4rem 0.2rem;
-    margin: 0 auto;
+    margin: 0.5rem 0;
     width: 70%;
     background-color: black;
     border: 2px solid white;
+}
+
+@media only screen and (max-width: 720px) {
+    body {
+        font-size: 1.25rem;
+        height: 100%;
+        width: 100%;
+    }
+
+    #submission {
+        height: 3rem;
+        width: 7rem;
+        font-size: 1.2rem;
+    }
+
+    .question {
+        width: 90%;
+        margin: 0;
+        height: auto;
+    }
 }
