@@ -23,7 +23,7 @@ body {
     background-color: darkcyan;
     background-image: url("./images/SP\ background\ 3.png");
     background-size: cover;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     color: white;
     font-size: 1rem;
     margin: 0.2rem auto;
