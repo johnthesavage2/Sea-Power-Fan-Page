@@ -1,0 +1,81 @@
+html {
+    font-size: 20px;
+}
+
+header {
+    grid-area: 1 / 1 / 2 / 6;
+    background-color: darkred;
+    border-radius: 0.75rem;
+    border: 0.1rem solid white;
+}
+
+header, #tricks p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.75rem;
+    font-family: Perpetua, 'Times New Roman', Times, serif;
+}
+
+h1, #tricks p {
+    font-weight: bold;
+}
+
+header, #tricks, #aside, main {
+    display: grid;
+    gap: 0.5rem;
+}
+
+body {
+    grid-template: 150px 1fr / repeat(5, 1fr);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    line-height: 1.5;
+    word-spacing: 0.1rem;
+}
+
+body, #aside {
+    background-color: black;
+}
+
+#tricks {
+    grid-area: 2 / 1 / 3 / 5;
+    background-image: url("./images/SP\ background\ 3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tricks, #aside {
+    border: 0.1rem solid darkred;
+    border-radius: 0.5rem;
+}
+
+#aside {
+    grid-area: 2 / 5 / 3 / 6;
+    padding: 0.1rem;
+    align-content: center;
+}
+
+#aside img {
+    width: 50%;
+    height: auto;
+    margin: 0.75rem 0.1rem 0.25rem;
+}
+
+figcaption {
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+#images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figcaption, #images, #tricks p {
+    padding: 0.25rem;
+}
+
+/* Make media queries for new page, maybe make the background look a little more interesting */
