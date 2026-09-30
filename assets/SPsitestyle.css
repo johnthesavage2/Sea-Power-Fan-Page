@@ -62,7 +62,7 @@ a:hover {
     color: rgb(84, 204, 164);
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: Perpetua, 'Times New Roman', Times, serif;
 }
 
@@ -73,6 +73,14 @@ h2, h3 {
     background-color: darkred;
     border: 1px solid white;
     margin-top: 0px;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h4, figcaption {
+    font-style: italic;
 }
 
 h2, h3, #media, section, footer, aside {
@@ -154,7 +162,6 @@ aside img {
 
 figcaption {
     font-size: 0.8rem;
-    font-style: italic;
 }
 
 nav a, header {
